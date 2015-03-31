@@ -137,12 +137,20 @@ void testFunctionCall() {
 	functionCall8(prototype3, v[0], v[1], v[2], v[3], v[4], v[5], v[6], v[7]);
 	functionCall8(prototype4, v[0], v[1], v[2], v[3], v[4], v[5], v[6], v[7]);
 }
+#include "jswrapper.h"
+void addNativeFunction(const char *name, void (*callbackPtr)(void)) {
+	jsvUnLock(jsvObjectSetChild(execInfo.root, name, jsvNewNativeFunction(callbackPtr, JSWAT_VOID)));
+}
+
+void nativeSave() {
+	jsiConsolePrintf("nativeSave\n");
+}
 
 void jsRun(const char *code) {
 	test();
 	
 	jsInit(code ? false : true);
-//	addNativeFunction("quit", nativeQuit);
+	addNativeFunction("save", nativeSave);
 
 	testFunctionCall();
 
