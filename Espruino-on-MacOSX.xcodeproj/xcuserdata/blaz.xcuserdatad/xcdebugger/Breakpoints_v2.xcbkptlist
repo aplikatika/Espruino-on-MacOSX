@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Espruino-on-ESP8266/user/jsinteractive.c"
-            timestampString = "449361239.457604"
+            timestampString = "449522554.103299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1638"
-            endingLineNumber = "1638"
+            startingLineNumber = "1621"
+            endingLineNumber = "1621"
             landmarkName = "jsiLoop()"
             landmarkType = "7">
          </BreakpointContent>
@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Espruino-on-ESP8266/user/jsinteractive.c"
-            timestampString = "449361239.457604"
+            timestampString = "449522554.103299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1641"
-            endingLineNumber = "1641"
+            startingLineNumber = "1624"
+            endingLineNumber = "1624"
             landmarkName = "jsiLoop()"
             landmarkType = "7">
          </BreakpointContent>
@@ -574,6 +574,22 @@
             startingLineNumber = "133"
             endingLineNumber = "133"
             landmarkName = "jsnCallFunction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Espruino-on-ESP8266/user/jsinteractive.c"
+            timestampString = "449522391.359766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1442"
+            endingLineNumber = "1442"
+            landmarkName = "jsiIdle()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
